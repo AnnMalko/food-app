@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #161616;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -14,9 +15,6 @@ code {
 .App {
   display: flex;
   justify-content: space-around;
-}
-body {
-  background-color: #161616;
 }
 .block {
   background-color: rgba(244, 237, 237, 0.916);
