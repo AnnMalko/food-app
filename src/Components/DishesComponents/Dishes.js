@@ -11,7 +11,7 @@ const Dishes = () => {
             if (selectedCategory === 'ALL') return true;
             return selectedCategory === dish.category;
         })
-        .map(dish => <Dish dish={dish}/>)}
+        .map(dish => <Dish key={dish.id} dish={dish}/>)}
     </div>)
 }
 export default Dishes;
